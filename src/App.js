@@ -10,6 +10,8 @@ import ProductList from './components/ProductList';
 
 import Context from "./Context";
 
+import "./App.css";
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -140,10 +142,10 @@ export default class App extends Component {
             aria-label="main navigation"
           >
             <div className="navbar-brand">
-              <b className="navbar-item is-size-4 ">ecommerce</b>
+              <img className="site-logo" src="https://digitalcircularfashion.savonia.fi/wp-content/uploads/2020/11/sitelogo.png" alt="Digital &amp; Circular Fashion House"></img>
               <label
                 role="button"
-                class="navbar-burger burger"
+                className="navbar-burger burger"
                 aria-label="menu"
                 aria-expanded="false"
                 data-target="navbarBasicExample"
